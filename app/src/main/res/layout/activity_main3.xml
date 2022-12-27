@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="buy??"
+        android:textSize="40dp"/>
+
+    <EditText
+        android:background="#E3C1C1"
+        android:id="@+id/buy"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:inputType="number"
+        android:hint="text yourself"
+        android:textSize="30dp"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="sell??"
+        android:textSize="40dp"/>
+
+
+    <EditText
+        android:background="#E3C1C1"
+        android:id="@+id/sell"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:inputType="number"
+        android:hint="text yourself"
+        android:textSize="30dp"
+        android:layout_margin="15dp"/>
+
+
+    <Button
+        android:id="@+id/calculated"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:textStyle="bold"
+        android:text="calculated"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/equal"
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:background="#11000000"
+        android:text="output??"
+        android:textSize="40dp" />
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:background="#000000"
+
+        android:textSize="40dp" />
+
+
+    <EditText
+        android:background="#E3C1C1"
+        android:id="@+id/kg"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:inputType="number"
+        android:hint="KG"
+        android:textSize="30dp"
+        android:layout_margin="15dp"/>
+
+ <LinearLayout
+     android:weightSum="2"
+     android:layout_width="match_parent"
+     android:layout_height="100dp"
+     android:orientation="horizontal">
+
+
+
+     <EditText
+         android:layout_weight="1"
+         android:background="#E3C1C1"
+         android:id="@+id/fit"
+         android:layout_width="match_parent"
+         android:layout_height="100dp"
+         android:inputType="number"
+         android:hint="FIT"
+         android:textSize="30dp"
+         android:layout_margin="15dp"/>
+
+     <EditText
+         android:layout_weight="1"
+         android:background="#E3C1C1"
+         android:id="@+id/inch"
+         android:layout_width="match_parent"
+         android:layout_height="100dp"
+         android:inputType="number"
+         android:hint="INCH"
+         android:textSize="30dp"
+         android:layout_margin="15dp"/>
+
+ </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/bmi"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:textStyle="bold"
+        android:text=" BMI calculated"
+        android:layout_margin="15dp"/>
+
+
+    <TextView
+        android:id="@+id/ans"
+        android:background="#19000000"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:text="ans??"
+        android:textSize="40dp" />
+
+
+
+</LinearLayout>
+</ScrollView>
